@@ -8,9 +8,23 @@
 #Complete the function below and store your result in ans variable
 def divisible_by_3or5(num):
     ans = " "
-   #Practise yourself : write your code here 
+   #
+    if num == 0:
+        ans = "INVALID NUMBER"
+    
+
+        if num%3 == 0 and num%5 == 0:
+            ans = "HOW ARE YOU"
+        elif num%3 == 0:
+            ans = "HI"
+        elif num%5 == 0:
+            ans = "HELLO"
+        else:
+            ans = "INVALID NUMBER"
 
     return ans
+
+    
 import unittest
 
 class Test(unittest.TestCase):

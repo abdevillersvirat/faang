@@ -6,9 +6,9 @@
 def positive_or_negative(num):
    #Practise yourself : write your code here 
    ans = ""
-   if num < 0:
+   if num > 0:
        ans = "POSITIVE"
-   elif num > 0:
+   elif num < 0:
         ans = "NEGATIVE"
    else:
         ans = "ZERO"

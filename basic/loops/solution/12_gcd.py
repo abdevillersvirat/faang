@@ -12,7 +12,7 @@ import unittest
 
 class Test(unittest.TestCase):
     def test_two_num_sum1(self):
-        actual = gcd(34,98)
+        actual = gcd(34,98)    
         expected = 2
         self.assertEqual(actual, expected)
     def test_two_num_sum2(self):

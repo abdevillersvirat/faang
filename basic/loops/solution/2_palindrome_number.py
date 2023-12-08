@@ -4,10 +4,10 @@
 
 def palindrome(n):
     num = n
-    pal = rem = 0
+    pal = 0
     while (num):
         rem = num % 10
-        pal = rem + pal * 10
+        pal = (pal * 10) + rem
         num //= 10
     if n == pal:
         return "Palindrome"
